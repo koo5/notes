@@ -22,3 +22,12 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 ## slack
 >Slack and Discord have nearly identical user interfaces for text communication.
 >Slack's free plan, on the other hand, is more limited. It allows for 10 integrations with third-party services, up to 10,000 messages stored in the history
+
+
+# discord-emacs/irc
+## option 1
+* http://www.aliquote.org/post/discord-bitlbee/
+## option 2
+So, given that we would all move to discord for serious discussions, the goal of an irc relay would be to ease the entry for newcomers and old lurkers. I would propose to create a bridge bot that would:
+* relay all discord messages into irc, where they would be printed possibly prefixed by discord channel name. 
+* relay back messages into "#general" or somesuch.
