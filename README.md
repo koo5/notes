@@ -15,11 +15,9 @@ How safe is shipping hdds, for the data?
 ## discord
 no reddit-style threads, but you can easily create a room, and everyone is instantly part of it
 ## matrix
-```
-riot.im (matrix) are very frustrating because (AFAICT) you cannot share permissions between channels. In general it’s just not as nice to use as a discord server if you have more than one or two channels, which means you’re more likely to put all conversations in one or a few channels which isn’t ideal. In discord can have many channels in a server and if you grant someone permissions in the server, then it can apply to any number of the channels. In matrix, again AFAIK, you need to add permissions to each channel separately for a user.
+>riot.im (matrix) are very frustrating because (AFAICT) you cannot share permissions between channels. In general it’s just not as nice to use as a discord server if you have more than one or two channels, which means you’re more likely to put all conversations in one or a few channels which isn’t ideal. In discord can have many channels in a server and if you grant someone permissions in the server, then it can apply to any number of the channels. In matrix, again AFAIK, you need to add permissions to each channel separately for a user.
+>Matrix is definitely better than IRC, but in my opinion it’s still inferior to discord, not due to the quality of, or number of features in, the client, but from a conceptual standpoint. I understand why matrix did their design that way, and it may be the best open standard option out there, but there are a lot of benefits to the way discord organizes its concepts.
 
-Matrix is definitely better than IRC, but in my opinion it’s still inferior to discord, not due to the quality of, or number of features in, the client, but from a conceptual standpoint. I understand why matrix did their design that way, and it may be the best open standard option out there, but there are a lot of benefits to the way discord organizes its concepts.
-```
 
 ## slack
 `Slack and Discord have nearly identical user interfaces for text communication.`
