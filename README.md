@@ -20,5 +20,5 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 
 
 ## slack
-`Slack and Discord have nearly identical user interfaces for text communication.`
-`Slack's free plan, on the other hand, is more limited. It allows for 10 integrations with third-party services, up to 10,000 messages stored in the history`
+>Slack and Discord have nearly identical user interfaces for text communication.
+>Slack's free plan, on the other hand, is more limited. It allows for 10 integrations with third-party services, up to 10,000 messages stored in the history
