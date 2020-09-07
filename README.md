@@ -57,6 +57,7 @@ So, given that we would all move to discord for serious discussions, the goal of
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6767279/
 * https://www.amazon.com/SMAKN-Microwave-10-525GHz-Doppler-Detector/dp/B00FFW4AZ4
 * https://biomedpharmajournal.org/vol12no3/a-novel-approach-for-non-contact-heart-rate-measurement/
+* apple watch/mi band etc
 
 ## sw
 * https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1334&context=knoesis
