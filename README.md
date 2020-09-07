@@ -90,4 +90,8 @@ So, given that we would all move to discord for serious discussions, the goal of
 # nextgen MAS's
 * https://pdfs.semanticscholar.org/5049/ed95b79c10eb536f40a893ed537fd84e652c.pdf
 * https://www.youtube.com/watch?v=M8-WFTjZoA0&ab_channel=TL%3BDR%2F%2FJavaScriptcodecastsforworkingdevs
+* http://soft.vub.ac.be/amop/crime/factspaces
+* https://elixir-lang.org/
+
+
 
