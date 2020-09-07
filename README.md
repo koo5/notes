@@ -41,9 +41,16 @@ So, given that we would all move to discord for serious discussions, the goal of
 
 # mealplanner
 ## resources
+
+### data
+
 * http://p.ip.fi/7hEg
+
+### engines
+
 * https://github.com/koo5/calorie_constraints
 * https://github.com/aindilis/gourmet-formalog
+* https://gist.github.com/Anniepoo/bd24803d14181627bb8a482b5a3d8768
 
 ## notes
 ```
