@@ -31,3 +31,23 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 So, given that we would all move to discord for serious discussions, the goal of an irc relay would be to ease the entry for newcomers and old lurkers. I would propose to create a bridge bot that would:
 * relay all discord messages into irc, where they would be printed possibly prefixed by discord channel name. 
 * relay back messages into "#general" or somesuch.
+
+
+
+# mealplanner
+## resources
+* http://p.ip.fi/7hEg
+* https://github.com/koo5/calorie_constraints
+* https://github.com/aindilis/gourmet-formalog
+
+## notes
+```
+<koo6> so actually CLP still bothers me a lot. clpr/q doesn't have anything like labelling... maybe i figured out a workaround for that and forgot it again...  and there's the bugs. Then there's clpfd, which, in it's probably greatest and maybe bug-free version is called clpz and has an implentation in rust ... which is all great, but .. 
+<koo6> it's integers, and i haven't found a way to simulate quotients or anything like that ... it'd rather stop solving completely
+<stoopkid> That’s all true wrt the CLP issues, main reason i bring it up is for comparison w/ something like Mathematica
+<koo6> something else i looked into was solving with limits, ie, just specify the ranges that your inputs are in, and hope to obtain the ranges that your outputs must be in
+<koo6> needless to say...clpq/r will choke on any form of such equations, best bet is to just express those ranges "naturally" as clp constraints, and maybe then try to do something silly like try to do fake labelling manually
+<koo6> i'm just tired of clpz/f/d/f/q/etc
+<stoopkid> koo6: yea swi-prolog clp is kind of a mess, but i mainly bring it up just cause in theory a Mathematica-like system isn’t really doing anything conceptually different, and neither is Coq’s auto-proving
+```
+
