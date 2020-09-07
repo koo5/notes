@@ -24,6 +24,8 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 >Slack's free plan, on the other hand, is more limited. It allows for 10 integrations with third-party services, up to 10,000 messages stored in the history
 
 
+
+
 # discord-emacs/irc
 ## option 1
 * http://www.aliquote.org/post/discord-bitlbee/
@@ -31,6 +33,9 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 So, given that we would all move to discord for serious discussions, the goal of an irc relay would be to ease the entry for newcomers and old lurkers. I would propose to create a bridge bot that would:
 * relay all discord messages into irc, where they would be printed possibly prefixed by discord channel name. 
 * relay back messages into "#general" or somesuch.
+
+
+
 
 
 
@@ -52,6 +57,7 @@ So, given that we would all move to discord for serious discussions, the goal of
 ```
 
 
+
 # sensor-net
 ## hw
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6767279/
@@ -67,4 +73,14 @@ So, given that we would all move to discord for serious discussions, the goal of
 * https://github.com/nkatzz/ILED
 * http://cer.iit.demokritos.gr/RTEC/demo.html
 * https://users.iit.demokritos.gr/~a.artikis/publications/artikis-TKDE14.pdf
+* https://www.researchgate.net/profile/Amit_Sheth/publication/232652895_Situation_awareness_via_abductive_reasoning_from_Semantic_Sensor_data_A_preliminary_report/links/0fcfd50a8fd2ada87a000000/Situation-awareness-via-abductive-reasoning-from-Semantic-Sensor-data-A-preliminary-report.pdf?origin=publication_detail
+* https://www.researchgate.net/publication/281234978_RDF_Stream_processing_Let%27s_react
+* https://pdfs.semanticscholar.org/5e00/70c4ef3506b945c12e49abc06ab7ab7b301a.pdf
+
+
+
+
+# nextgen MAS's
+* https://pdfs.semanticscholar.org/5049/ed95b79c10eb536f40a893ed537fd84e652c.pdf
+* https://www.youtube.com/watch?v=M8-WFTjZoA0&ab_channel=TL%3BDR%2F%2FJavaScriptcodecastsforworkingdevs
 
