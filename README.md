@@ -92,6 +92,7 @@ So, given that we would all move to discord for serious discussions, the goal of
 * https://www.youtube.com/watch?v=M8-WFTjZoA0&ab_channel=TL%3BDR%2F%2FJavaScriptcodecastsforworkingdevs
 * http://soft.vub.ac.be/amop/crime/factspaces
 * https://elixir-lang.org/
+* https://notamonadtutorial.com/lasp-a-little-further-down-the-erlang-rabbithole-febba29c8d0c
 
 
 
