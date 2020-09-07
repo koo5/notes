@@ -51,3 +51,19 @@ So, given that we would all move to discord for serious discussions, the goal of
 <stoopkid> koo6: yea swi-prolog clp is kind of a mess, but i mainly bring it up just cause in theory a Mathematica-like system isn’t really doing anything conceptually different, and neither is Coq’s auto-proving
 ```
 
+
+# sensor-net
+## hw
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6767279/
+* https://www.amazon.com/SMAKN-Microwave-10-525GHz-Doppler-Detector/dp/B00FFW4AZ4
+* https://biomedpharmajournal.org/vol12no3/a-novel-approach-for-non-contact-heart-rate-measurement/
+
+## sw
+* https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1334&context=knoesis
+* https://dtai.cs.kuleuven.be/problog/
+* https://arxiv.org/abs/1207.3270
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3979570/
+* https://github.com/nkatzz/ILED
+* http://cer.iit.demokritos.gr/RTEC/demo.html
+* https://users.iit.demokritos.gr/~a.artikis/publications/artikis-TKDE14.pdf
+
