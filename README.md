@@ -103,6 +103,7 @@ So, given that we would all move to discord for serious discussions, the goal of
 # semantic desktop
 
 https://frdcsa.org/~andrewdo/software/domains.lisp
+https://sourceforge.net/projects/conversio/
 
 
 
