@@ -69,6 +69,7 @@ So, given that we would all move to discord for serious discussions, the goal of
 
 # sensor-net
 ## hw
+* https://diyprojects.io/esp8266-deep-sleep-mode-test-wake-pir-motion-detector/
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6767279/
 * https://www.amazon.com/SMAKN-Microwave-10-525GHz-Doppler-Detector/dp/B00FFW4AZ4
 * https://biomedpharmajournal.org/vol12no3/a-novel-approach-for-non-contact-heart-rate-measurement/
