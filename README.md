@@ -113,8 +113,8 @@ https://sourceforge.net/projects/conversio/
 * https://sourceforge.net/projects/conversio/
 * https://web.archive.org/web/20040930065210/http://libs.sourceforge.net/user/welcome.php
 * https://fno.io/
-
-
+* https://github.com/aindilis/cfo
+* https://frdcsa.org/~andrewdo/software/domains.lisp
 
 
 
