@@ -26,6 +26,8 @@ no reddit-style threads, but you can easily create a room, and everyone is insta
 
 
 
+
+
 # discord-emacs/irc
 ## option 1
 * http://www.aliquote.org/post/discord-bitlbee/
@@ -118,3 +120,35 @@ https://sourceforge.net/projects/conversio/
 * https://github.com/w3c/N3/blob/51f370ffb880effb089190076b956d16035f4ea3/files/builtin%20definitions/builtins.n3
 
 
+
+
+# browser / tracker
+```
+jballint has the chrome extension, that sends events to the database, and then searches the database from emacs. For firefox, he suggested that i build it with webextensions api, but actually there is already a suitable project: https://beepb00p.xyz/promnesia.html
+
+it can actually be thought of as two separate functionalities of the extension: sending info to the backend, and displaying info
+
+and, well, according to my latest research, i think at least epiphany browser is integrated with tracker(backend) or maybe zeitgeist, and that's queryable with synapse(an omnibar)
+
+there may be a couple other projects/integrations like that, like KRunner
+
+what i discussed with you was the proxy to insert annotations directly into webpages
+```
+## promnesia
+```
+cd promnesia/extension/
+npm i
+./build --target firefox
+```
+open firefox, go into add-ons, there's an option to temporarily install an *unpacked* extension from a directory. For a permanent install, you have to go through this: https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext_sign
+
+this is due to some suspicious moves of mozilla ... https://bugzilla.mozilla.org/show_bug.cgi?id=1309288
+
+the extension is also available here: https://addons.mozilla.org/en-US/firefox/addon/promnesia/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+
+mkdir ./data, then you save config.example.py as config.py in ./data, edit the compose file to enable persistent volumes, make sure you have:
+```sudo apt install golang-docker-credential-helpers```
+then:
+```docker-compose -f docker-compose.yaml  up -d```
+voila:
+```13131                :::*                    LISTEN      30338/docker-proxy```
