@@ -147,8 +147,16 @@ this is due to some suspicious moves of mozilla ... https://bugzilla.mozilla.org
 the extension is also available here: https://addons.mozilla.org/en-US/firefox/addon/promnesia/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 mkdir ./data, then you save config.example.py as config.py in ./data, edit the compose file to enable persistent volumes, make sure you have:
+
 ```sudo apt install golang-docker-credential-helpers```
+
 then:
-```docker-compose -f docker-compose.yaml  up -d```
+```docker-compose up```
+
 voila:
 ```13131                :::*                    LISTEN      30338/docker-proxy```
+
+i can observe some traffic with:
+```sudo tcpdump -i lo -A -s 0 'tcp port 13131'```
+
+
