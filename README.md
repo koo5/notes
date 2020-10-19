@@ -144,7 +144,7 @@ open firefox, go into add-ons, there's an option to temporarily install an *unpa
 
 this is due to some suspicious moves of mozilla ... https://bugzilla.mozilla.org/show_bug.cgi?id=1309288
 
-the extension is also available here: https://addons.mozilla.org/en-US/firefox/addon/promnesia/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+the extension is also available here, but possibly outdated?: https://addons.mozilla.org/en-US/firefox/addon/promnesia/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 mkdir ./data, then you save config.example.py as config.py in ./data, edit the compose file to enable persistent volumes, make sure you have:
 
@@ -159,4 +159,4 @@ voila:
 i can observe some traffic with:
 ```sudo tcpdump -i lo -A -s 0 'tcp port 13131'```
 
-
+my fork currently fixes some python issues but maybe creates another. indexer is crashing..
