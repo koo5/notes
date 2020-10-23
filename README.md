@@ -174,6 +174,16 @@ thredd
 https://hypothes.is/
   chrome-only
 
+
+evaluating:
+  https://addons.mozilla.org/en-US/firefox/addon/reddit-checker
+  https://addons.mozilla.org/en-US/firefox/addon/thredd
+  https://kanopi.io/
+  
+  https://crowdference.org 
+    just "associate two urls". The simplest that the UI could get. 
+ 
+
 dead
   https://addons.mozilla.org/en-US/firefox/addon/hey-discuss-everywhere/
   
