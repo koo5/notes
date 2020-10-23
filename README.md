@@ -133,7 +133,9 @@ cd promnesia/extension/
 npm i
 ./build --target firefox
 ```
-open firefox, go into add-ons, there's an option to temporarily install an *unpacked* extension from a directory. For a permanent install, you have to go through this: https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext_sign
+open firefox, go into [add-ons](about:addons), click ![settings](chrome://global/skin/icons/settings.svg), Debug Add-ons,  "Load Temporary Add-on". select promnesia/extension/dist/firefox/manifest.json
+
+For a permanent install, you have to go through this: https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext_sign
 
 this is due to some suspicious moves of mozilla ... https://bugzilla.mozilla.org/show_bug.cgi?id=1309288
 
