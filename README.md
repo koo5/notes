@@ -126,7 +126,8 @@ there may be a couple other projects/integrations like that, like KRunner
 
 what i discussed with you was the proxy to insert annotations directly into webpages
 ```
-## promnesia
+## semantic browsing
+### promnesia
 ```
 cd promnesia/extension/
 npm i
@@ -152,3 +153,16 @@ i can observe some traffic with:
 ```sudo tcpdump -i lo -A -s 0 'tcp port 13131'```
 
 my fork currently fixes some python issues but maybe creates another. indexer is crashing..
+
+
+### the setup/extensions i'm trialing rn
+promnesia
+  still have to work on indexers
+epiverse
+  note https://www.reddit.com/r/Epiverse/comments/i9i1sc/url_filter_megathread/
+
+
+### extensions/authors worth working with, but not ready
+https://github.com/ken107/side-chatter/blob/master/web/js/chat.js
+
+
