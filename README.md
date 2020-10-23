@@ -160,7 +160,9 @@ promnesia
   still have to work on indexers
 epiverse
   note https://www.reddit.com/r/Epiverse/comments/i9i1sc/url_filter_megathread/
-
+thredd
+  https://github.com/ronnyli/thredd
+  relatively solid UI & presentation
 
 ### extensions/authors worth working with, but not ready
 https://github.com/ken107/side-chatter/blob/master/web/js/chat.js
