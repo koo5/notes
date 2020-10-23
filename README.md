@@ -156,14 +156,25 @@ my fork currently fixes some python issues but maybe creates another. indexer is
 
 
 ### the setup/extensions i'm trialing rn
+```
 promnesia
-  still have to work on indexers
+  i still have to work on indexers
+
+https://github.com/pinoceniccola/what-hn-says-webext
+  shows hn threads for pages on domain
+ 
 epiverse
+  only shows threads strictly for the given uri, so misses a lot of stuff
   note https://www.reddit.com/r/Epiverse/comments/i9i1sc/url_filter_megathread/
+
 thredd
   https://github.com/ronnyli/thredd
   relatively solid UI & presentation
-
+  
+https://hypothes.is/
+  
+  
+```
 ### extensions/authors worth working with, but not ready
 https://github.com/ken107/side-chatter/blob/master/web/js/chat.js
 
