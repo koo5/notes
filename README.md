@@ -134,7 +134,7 @@ npm i
 ./build --target firefox
 ```
 
-open firefox, go into add-ons ( about:addons ), click the settings icon, (chrome://global/skin/icons/settings.svg), click Debug Add-ons, click "Load Temporary Add-on". select promnesia/extension/dist/firefox/manifest.json
+open firefox, go into add-ons ( about:addons ), click the settings icon, (chrome://global/skin/icons/settings.svg), click Debug Add-ons ( about:debugging#/runtime/this-firefox ), click "Load Temporary Add-on". select promnesia/extension/dist/firefox/manifest.json
 
 
 For a permanent install, you have to go through this: https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext_sign
