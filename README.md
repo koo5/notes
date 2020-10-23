@@ -172,6 +172,11 @@ thredd
   relatively solid UI & presentation
   
 https://hypothes.is/
+  chrome-only
+
+dead
+  https://addons.mozilla.org/en-US/firefox/addon/hey-discuss-everywhere/
+  
   
   
 ```
