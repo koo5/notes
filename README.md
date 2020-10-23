@@ -133,9 +133,8 @@ cd promnesia/extension/
 npm i
 ./build --target firefox
 ```
-open firefox, go into [add-ons](about:addons), click [![settings](chrome://global/skin/icons/settings.svg)](#bla), Debug Add-ons,  "Load Temporary Add-on". select promnesia/extension/dist/firefox/manifest.json
 
-[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
+open firefox, go into add-ons ( about:addons ), click the settings icon, (chrome://global/skin/icons/settings.svg), click Debug Add-ons, click "Load Temporary Add-on". select promnesia/extension/dist/firefox/manifest.json
 
 
 For a permanent install, you have to go through this: https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext_sign
