@@ -164,8 +164,9 @@ my fork currently fixes some python issues but maybe creates another. indexer is
 promnesia
   i still have to work on indexers
 
-https://github.com/pinoceniccola/what-hn-says-webext
-  shows hn threads for pages on domain
+what-hn-says-webext
+  https://github.com/pinoceniccola/what-hn-says-webext
+    shows hn threads for pages on domain
  
 epiverse
   only shows threads strictly for the given uri, so misses a lot of stuff
@@ -189,12 +190,14 @@ evaluating:
  
 
 dead
-  https://addons.mozilla.org/en-US/firefox/addon/hey-discuss-everywhere/
+  hey
+    https://addons.mozilla.org/en-US/firefox/addon/hey-discuss-everywhere/
+  
+meta
+  https://news.ycombinator.com/item?id=24048786
   
   
-  
-```
-### extensions/authors worth working with, but not ready
-https://github.com/ken107/side-chatter/blob/master/web/js/chat.js
+worth working with, but not ready
+  https://github.com/ken107/side-chatter/blob/master/web/js/chat.js
 
 
