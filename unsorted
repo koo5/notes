@@ -15,6 +15,8 @@ possibly useful:
 	https://www.cubicweb.org/
 		alive
 		semantic web app framework
+		server rendering
+		"Entity relational model", comparable to rdf
 		
     https://atomgraph.com
         https://github.com/AtomGraph/Web-Client

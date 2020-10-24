@@ -5,12 +5,24 @@ https://www.spice-space.org/multiple-monitors.html
 
 
 
+# p9 shared filesystem
+
+
+pretty slow and you have to fix permissions all the time, but i use it
+
+
+modules to load:
 9p
 9pnet
 9pnet_virtio
 
 
+fstab:
 shared /shared 9p trans=virtio 0 0
+
+
+
+
 
 
 modprobe nbd

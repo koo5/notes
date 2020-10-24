@@ -1,12 +1,15 @@
-tried:
-closed source: resillio
-open: syncthing
+resillio/syncting
+similar in principle.
 
-both ok.
+closed source: resillio
+open source: syncthing
+
+both ok. synctihing "rescans" after every restart. The mobile app "stops" when you disconnect from AC, if that's what your settings say. At some 200GB of data on an SD, this becomes ridiculous. Alos, not much luck lately getting two clients to see each other on a wifi, even when the connection is clearly ok. Have to set ip manually. Also, some messy handling of filenames that probably won't be fixed.
+resillio is a bit more polished.
 
 
 duplicati:
-	can be slow
+	can be slow, does a lot of encrypting i guess, ok for small backups like text documents.
 
 
 
