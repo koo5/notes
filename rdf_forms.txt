@@ -83,6 +83,21 @@ https://www.cubicweb.org/
 	(16:20:37) matrix: <nchauvat> it should make things simpler
 	(16:20:45) matrix: <nchauvat> hopefully
 	```
+	extension seems bitrotten a bit:
+		https://forge.extranet.logilab.fr/open-source/LDBrowser/cubicweb-browser-extension
+		but see demo
+			https://archive.fosdem.org/2019/schedule/event/collab_cwldbe/attachments/video/3348/export/events/attachments/collab_cwldbe/video/3348/nchauvat_cubicweb_ld_browser_demo.webm
+			comparable to link-redux principle
+
+	https://forge.extranet.logilab.fr/open-source/LDBrowser/sparqlexplorer
+		https://forge.extranet.logilab.fr/culture/culture-views/-/blob/branch/default/src/bienCulturelClass/bienCulturelClass.tsx
+		how does it compare to link-redux exactly?
+	https://open-source.pages.logilab.fr/LDBrowser/logilab-views/			
+
+
+LDBrowser
+	https://forge.extranet.logilab.fr/open-source/LDBrowser/libview/-/blob/branch/default/src/rdf-entities.ts
+	not sure what's that about
 
 
 https://wiki.duraspace.org/display/ld4lLABS/The+VitroLib+Metadata+Editor
