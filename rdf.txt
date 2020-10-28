@@ -412,7 +412,8 @@ rdf:
 					- GraphQL: "automagically provides a GraphQL endpoint over your existing RDF graphs"
 					- virtual graphs
 					- owl inference with explanations
-
+					- no free version, no pricing
+					
 				allegro (+ gruff)
 					- recommended, at least for gruff, but stardog has a lot more functionality useful for us
 		okay

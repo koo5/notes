@@ -76,6 +76,13 @@ https://www.cubicweb.org/
 		https://www.cubicweb.org/link/1347429?vid=rdf
 	nice community
 	seems kinda overcomplicated?
+	```
+	(16:19:43) matrix: <nchauvat> instead of overcomplicated, I would say underdocumented :)
+	(16:19:59) matrix: <nchauvat> documentation is the target of version 3.29
+	(16:20:29) matrix: <nchauvat> and client-side views are in the works to replace cubicweb.web
+	(16:20:37) matrix: <nchauvat> it should make things simpler
+	(16:20:45) matrix: <nchauvat> hopefully
+	```
 
 
 https://wiki.duraspace.org/display/ld4lLABS/The+VitroLib+Metadata+Editor
