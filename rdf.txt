@@ -416,6 +416,9 @@ rdf:
 					
 				allegro (+ gruff)
 					- recommended, at least for gruff, but stardog has a lot more functionality useful for us
+					
+				https://terminusdb.com/
+					versioning
 		okay
 			virtuoso
 				URLBurner.

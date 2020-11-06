@@ -57,3 +57,12 @@ virt-builder://ubuntu-18.04
 
 
 https://medium.com/kata-containers
+
+
+
+
+
+
+guestmount -a path_to_image.qcow2 -i --ro /mount_point # safe, read only
+guestmount -a path_to_image.qcow2 -i /mount_point # use only on not running vm image
+guestmount utility can be found in libguestfs-tools package (on Debian and RHEL).
