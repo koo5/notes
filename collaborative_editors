@@ -1,66 +1,66 @@
 
 # collaborative / distributed IDEs
 
-	## https://www.codetogether.com/
-		?
+## https://www.codetogether.com/
+	?
 		
 
-	## GitHub Codespaces vs Gitpod
+## GitHub Codespaces vs Gitpod
 	
 		
 	
 
-		### https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/
+### https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/
 	
-			| Happily, we could support our shell-based colleagues through a simple update to our prebuilt image which initializes sshd with our GitHub public keys, opens port 22, and forwards the port out of the codespace.
+	| Happily, we could support our shell-based colleagues through a simple update to our prebuilt image which initializes sshd with our GitHub public keys, opens port 22, and forwards the port out of the codespace.
 
 
 	
-		### gitpod
+### gitpod
 		
-			```git fetch --unshallow origin```
+	```git fetch --unshallow origin```
 			
 			
-			### https://community.gitpod.io/t/how-to-ssh-into-gitpod-workspace/341/25
-				| Here is a sample configuration of a workspace that allows to connect to via SSH through a Chisel tunnel: https://github.com/corneliusludmann/gitpod-playground/tree/sshd-over-chisel 
+### https://community.gitpod.io/t/how-to-ssh-into-gitpod-workspace/341/25
+	| Here is a sample configuration of a workspace that allows to connect to via SSH through a Chisel tunnel: https://github.com/corneliusludmann/gitpod-playground/tree/sshd-over-chisel 
 				
-				| Gitpod Local Companion: Gitpod Local Companion - localhost is going remote 106 It automatically forwards services from Gitpod workspace to your localhost as well as allow SSH access.
+	| Gitpod Local Companion: Gitpod Local Companion - localhost is going remote 106 It automatically forwards services from Gitpod workspace to your localhost as well as allow SSH access.
 				
 				
 			
 		
-			| You can use teams to group and manage one or more projects and invite team members. Users with access to a team can view branches, prebuilds, and configuration for all projects within a team as well as open new workspaces directly from a branch or a prebuild from the dashboard.
+	| You can use teams to group and manage one or more projects and invite team members. Users with access to a team can view branches, prebuilds, and configuration for all projects within a team as well as open new workspaces directly from a branch or a prebuild from the dashboard.
 			
-			| With “Gitpod for Startups”, we offer eligible companies free services for up to 2 years
+	| With “Gitpod for Startups”, we offer eligible companies free services for up to 2 years
 			
-			| you can provide a public Docker image or your own Dockerfile. This provides you with the flexibility to install the tools & libraries required for your project.
+	| you can provide a public Docker image or your own Dockerfile. This provides you with the flexibility to install the tools & libraries required for your project.
 			
 			
 			
 	
-		### https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/
+### https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/
 		
-			| Developer environments turn just into some resource I can spin up on demand and close and forget about if I am done with my task. Gitpod is excelling at that workflow and built their product around it. 
+	| Developer environments turn just into some resource I can spin up on demand and close and forget about if I am done with my task. Gitpod is excelling at that workflow and built their product around it. 
 			
-			| Gitpod offers functionality to share a snapshot of the workspace with a co-worker but GitHub Codespaces does not.
+	| Gitpod offers functionality to share a snapshot of the workspace with a co-worker but GitHub Codespaces does not.
 			
-			https://visualstudio.microsoft.com/services/live-share/
+	https://visualstudio.microsoft.com/services/live-share/
 		
-			| For GitHub Codespaces I could not find any information for other IDEs than VS Code. And given that Microsoft is behind both projects, I’d expect that they'll probably focus on VS Code.
+	| For GitHub Codespaces I could not find any information for other IDEs than VS Code. And given that Microsoft is behind both projects, I’d expect that they'll probably focus on VS Code.
 
-			In contrast, Gitpod tries to stress that what they have built is, on an architectural level, IDE independent and allows you to run any IDE image you can run remotely in their container. 
+	In contrast, Gitpod tries to stress that what they have built is, on an architectural level, IDE independent and allows you to run any IDE image you can run remotely in their container. 
 			
-			| Both Codespaces and Gitpod support docker-in-docker for Docker Compose scenarios and nested virtualization which enables running operating systems or appliances in your browser.
+	| Both Codespaces and Gitpod support docker-in-docker for Docker Compose scenarios and nested virtualization which enables running operating systems or appliances in your browser.
 			
-			| Gitpod supports prebuilds for that (think about them as a CI/CD server where Gitpod prebuilds the full workspace / runs the automation on every commit to Git).
+	| Gitpod supports prebuilds for that (think about them as a CI/CD server where Gitpod prebuilds the full workspace / runs the automation on every commit to Git).
 			
 		
-	
+
 	
 		
-	## inotify over SSHFS
-		tldr: DIY
-		https://itectec.com/unixlinux/ssh-how-to-use-inotify-or-named-pipes-over-sshfs/
+## inotify over SSHFS
+	tldr: DIY
+	https://itectec.com/unixlinux/ssh-how-to-use-inotify-or-named-pipes-over-sshfs/
 	
 
 
