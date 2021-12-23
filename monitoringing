@@ -37,8 +37,10 @@ todo:
 	
 	
 https://demo.staytus.co/
+	| The Widgets Status Site
 	- i really like this, but would have to drive the content thru its api
 	- https://github.com/adamcooke/staytus/issues/355
+	see also karma
 	
 	
 	
@@ -103,7 +105,15 @@ https://github.com/influxdata/kapacitor
 
 https://github.com/sensu/sensu-go
 	commercial, limited free, source available
+	
 	docs show lack of maintenance
+	
+	kinda complicated to set up, expects a larger scale deployment, docs dont detail how to run without a whole cluster of etcd deamons...
+	
+	works fine in docker
+	
+	you have to follow the steps to generate and distribute certs (or keep everything behind a firewall?), there's no information about running it behind a https proxy..
+	
 	event-oriented
 	```Agents automatically register with Sensu as entities when you start them up and connect to the Sensu backend with no need for further provisioning. You only need to specify the IP address for the Sensu backend server ```
 
@@ -141,3 +151,11 @@ https://github.com/sensu/sensu-go
 
 
 
+todo try:
+	zabbix
+	https://checkmk.com/download?edition=cfe&version=stable&dist=ubuntu&os=focal
+	https://mmonit.com/monit/
+	munin?
+	
+	
+	

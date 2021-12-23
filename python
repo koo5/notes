@@ -64,3 +64,28 @@ typing
 	https://www.dynaconf.com/
 	https://hydra.cc/docs/intro/
 	
+
+
+
+
+
+# task queues
+	## celery
+	
+		https://youtu.be/ceJ-vy7fvus?t=811
+			-Ofair
+			app.task_acks_late = True
+			app.worker_prefetch_multiplier = 1 # CELERY_PREFETCH_MULTIPLIER
+	
+		ALWAYS_EAGER
+			| The above code runs without an active worker and executes fib(8) synchronously within the same process. You may know this behaviour from Celery as ALWAYS_EAGER
+
+		joining all tasks is called "chord"
+		
+		| If you call the group, the tasks will be applied one after another in the current process
+			what?
+	
+	
+	
+	
+	
