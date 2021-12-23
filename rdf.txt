@@ -142,7 +142,8 @@ rdf_forms.txt:
 			http://docs.ontowiki.net/Getting-Started-Users.html
 		https://github.com/AKSW/cubeviz.ontowiki
 		
-
+	ecceneca
+		https://documentation.eccenca.com/blog/2021/11/corporate-memory-21-11-released
 
 	https://github.com/AtomGraph/Web-Client
 		"Web-Client renders (X)HTML user interface by transforming "plain" RDF/XML (without nested resource descriptions) using XSLT 2.0 stylesheets."
