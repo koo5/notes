@@ -70,7 +70,47 @@ typing
 
 
 # task queues
+
+
+	# airflow?
+	# fireworq?
+	
+	
+	
+	
+	# huey
+		monitoring -- https://pypi.org/project/django-huey-monitor/
+		Immediate mode - not useful when i have a separate webserver trigerring the tasks
+	
+	# rq
+		monitoring -- https://github.com/Parallels/rq-dashboard
+		
+		
+	
+	# dramatiq
+		no monitoring
+	# TaskTiger
+		no monitoring
+	
+
 	## celery
+	
+		RDB!
+			https://www.youtube.com/watch?v=0LOytHKMSz0
+			this explains a lot. I had huge trouble trying to debug my celery tasks.
+			still it's a question if i'll be able to make pycharm connect to that and do "normal" graphical debugging / break on exceptions...
+		
+		```
+		from celery import current_app
+		current_app.conf.CELERY_ALWAYS_EAGER = True
+		current_app.conf.CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
+		Doing so makes celery execute in the same thread as the currently executing thread.
+		```
+		 - https://stackoverflow.com/questions/29312809/how-do-i-enable-remote-celery-debugging-in-pycharm
+		 
+
+	
+		worker_max_tasks_per_child = 1
 	
 		https://youtu.be/ceJ-vy7fvus?t=811
 			-Ofair
@@ -85,7 +125,14 @@ typing
 		| If you call the group, the tasks will be applied one after another in the current process
 			what?
 	
+		https://youtu.be/Bo6UtRhedjE?t=557
+			interesting idea, only import your code when task is starting - avoid need for reloads of whole worker
 	
-	
-	
+		https://youtu.be/Bo6UtRhedjE?t=912
+			paralleling task states in an sql table, this would be useful....
+			
+		https://www.youtube.com/watch?v=V6XRf457Es8
+			declarative dataflows
+		
+		
 	
