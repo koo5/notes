@@ -2,6 +2,16 @@ https://github.com/google/python-fire
 
 
 
+# def tr():
+# 	try:
+# 		import sys
+# 		sys.path.append('/app/sources/internal_workers/pydevd-pycharm.egg')
+# 		import pydevd_pycharm
+# 		pydevd_pycharm.settrace('172.17.0.1', port=12345, stdoutToServer=True, stderrToServer=True)
+# 	except Exception as e:
+# 		logging.getLogger().info(e)
+
+
 
 
 [a :note; :contents """
@@ -45,7 +55,10 @@ https://news.ycombinator.com/item?id=28880782
 typing
 	https://www.reddit.com/r/Python/comments/qlotne/github_beartypebeartype_unbearably_fast_o1/
 	
-	
+
+UI
+	https://github.com/willmcgugan/textual
+		reactivity on the desktop!
 	
 	
 	
@@ -82,13 +95,37 @@ typing
 		monitoring -- https://pypi.org/project/django-huey-monitor/
 		Immediate mode - not useful when i have a separate webserver trigerring the tasks
 	
-	# rq
+	# RQ
 		monitoring -- https://github.com/Parallels/rq-dashboard
 		
+		| For testing purposes, you can enqueue jobs without delegating the actual execution to a worker (available since version 0.3.1). To do this, pass the is_async=False argument into the Queue constructor
+	
+		"register its own death." => register a failed task for retrying?
+		
+		| kill -9, which will not give the workers a chance to finish the job gracefully or to put the job on the failed queue. Therefore, killing a worker forcefully could potentially lead to damage.
+			eew
+		
+		By default, jobs should execute within 180 seconds.
+		
+		
+		
+		
+	# MRQ
+		RQ fork
+		looks great but python2 only?
+		monitoring - https://mrq.readthedocs.io/en/latest/dashboard/
+		https://pythonrepo.com/repo/pricingassistant-mrq-python-working-with-event-and-task-queues
 		
 	
 	# dramatiq
 		no monitoring
+
+	# remoulade
+		dramatiq fork
+		monitoring -- https://github.com/wiremind/super-bowl
+			vue
+
+		
 	# TaskTiger
 		no monitoring
 	
@@ -136,3 +173,22 @@ typing
 		
 		
 	
+	
+	
+	# note also
+		https://www.rabbitmq.com/networking.html
+		
+
+
+
+	# non-python
+	    Bull
+	    
+			focusing on atomicity
+			
+			several frontends
+			
+			| Nest provides the @nestjs/bull package as an abstraction/wrapper on top of Bull, a popular, well supported, high performance Node.js based Queue system implementation. The package makes it easy to integrate Bull Queues in a Nest-friendly way to your application.
+
+			probably uses JSON for serialization, right?:-)
+

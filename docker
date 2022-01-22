@@ -92,4 +92,19 @@ https://news.ycombinator.com/item?id=29400741
 
 
 
+security updates
+	https://blog.goroot.de/post/unattended-container-updates/
+	https://forum.storj.io/t/watchtower-and-docker-compose/6321/14
+	https://github.com/containrrr/watchtower
+		this is a piece of the puzzle but a small one and also can be seen as a compromise. What we need to aim for is immutability coupled with automated review feed coupled to automated updates...
+		
+		
+
+
+
+mount vs volume
+	https://forum.storj.io/t/watchtower-and-docker-compose/6321/12
+
+
+https://github.com/docker-library/rabbitmq/pull/174#issuecomment-452002696
 

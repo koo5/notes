@@ -403,6 +403,7 @@ rdf_explore_manage.txt
 				cytoscape.js
 					https://dmx-systems.github.io/cytoscape-edge-connections/
 					didnt find anything rdf related, but i guess it would be a reasonable engine for building something
+					-> https://github.com/koo5/QuadLad/blob/master/src/Cytoscape.svelte
 
 				https://github.com/marklogic-community/grove-vue-visjs-graph
 

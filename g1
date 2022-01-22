@@ -130,6 +130,9 @@ todo
 webdev
 
     utils
+
+		https://www.endpoints.dev/
+
         rollup
             https://github.com/rollup/rollup/
             should be easier to configure than webpack
@@ -148,6 +151,7 @@ webdev
             https://plugins.mavo.io/plugin/chart
 
         https://github.com/tiangolo/fastapi
+	        https://www.reddit.com/r/Python/comments/s0jgou/starlite_the_little_api_framework_that_can/
         https://github.com/sveltejs/svelte
             https://github.com/mdauner/sveltejs-forms
             https://github.com/noahlh/celestite
