@@ -944,7 +944,8 @@ augmented_text.txt
 		https://www.solipsys.co.uk/cgi-bin/DiscDAG.py?DiscussionID=AxiomOfChoice
 		https://ibis.makethingsmakesense.com/52dea301-2e68-4c10-ab2d-bb0e0c95aa60
 
-
+	macros	
+		https://github.com/conartist6/macrome
 
 	annotating free text
 
@@ -952,6 +953,11 @@ augmented_text.txt
 
 		http://aksw.org/Projects/RDFaCE.html
 
+		https://github.com/boberle/standoff2inline
+		
+		https://marketplace.eclipse.org/content/collage-framework-and-code-markup-tools		
+		
+		https://plugins.jetbrains.com/plugin/17541-code-annotation-tool/versions
 
 
 
