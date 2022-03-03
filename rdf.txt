@@ -577,6 +577,9 @@ rdf_explore_manage.txt
 			gephi
 
 
+		large scale graph visualization framework
+			https://github.com/Tulip-Dev/tulip
+
 
 
 	resources
