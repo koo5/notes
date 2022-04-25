@@ -157,7 +157,7 @@
 		npm install -g ungit;ungit
 
 	gitkraken
-		looking good, but doesnt run for me
+		looking good, but doesnt run for me; also immediately requires full perms to your github?
 
 	gmaster
 		windows-only
