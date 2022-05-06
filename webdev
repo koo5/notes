@@ -199,7 +199,12 @@ p2p db
 	OrbitDB
 		node example
 			https://github.com/orbitdb/orbit-db#nodejs-example
-	
+		sep 2021: OrbitDB: serious problem: 
+			the db just keeps growing, there's no way to control what you keep. There are 3 levels:
+				ipfs cache - not really a worry, you can control how big it is
+				OrbitDB on-disk storage - the whole database is there
+				OrbitDB in-memory data structures: the whole database is there
+
 	
 	
 
