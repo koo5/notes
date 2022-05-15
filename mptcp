@@ -1,3 +1,0 @@
-dmesg | grep MPTCP
-nstat "MPTcp*"
-
