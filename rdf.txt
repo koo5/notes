@@ -151,7 +151,12 @@ rdf_forms.txt:
 
 	excel
 		- http://labs.sparna.fr/skos-play/convert
-			down?
+			```
+			XLWrap (I used it quite a bit, it is good but uses complex configuration files)
+			Sheet2RDF, from the team that makes VocBench
+			Open Anzo (never tested it)
+			You can check for other tools on the W3C RDF converter wiki page.
+			```
 		- our currently closed-source solution
 		- topbraid also does import from excel files, both
 			- semantically (one object per row, for example)
@@ -993,3 +998,11 @@ Web3 stuff
 	https://comunica.dev/
 		...
 
+
+		
+SPARQL
+	https://ontologforum.org/index.php/KGSQL
+		https://baclawski.s3.amazonaws.com/kgsql/Introduction+to+KGSQL.pdf
+
+			
+	

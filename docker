@@ -62,6 +62,11 @@ security updates
 	https://pythonspeed.com/articles/base-image-python-docker-images/
 
 
+	
+fail2ban
+	https://www.crowdsec.net/blog/secure-docker-compose-stacks-with-crowdsec
+
+	
 
 mount vs volume
 	https://forum.storj.io/t/watchtower-and-docker-compose/6321/12
