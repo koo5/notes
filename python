@@ -195,3 +195,22 @@ UI
 
 # workflow orchestration
 	https://news.ycombinator.com/item?id=14555740
+
+
+
+
+
+
+
+
+
+
+
+# if you want to see current env:
+#import sys
+#print(sys.path)
+#p = subprocess.Popen(['bash', '-c', 'export'], universal_newlines=True)
+#p.communicate()
+
+
+
