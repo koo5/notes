@@ -69,6 +69,10 @@ rdf_forms.txt:
 		"""
 
 
+	https://github.com/hypermedia-app/shaperone
+		shacl
+		
+		
 	https://metaphacts.com/product
 		"""
 		declarative Web components for end-user interaction and visualization, and publish dynamic REST services for external data consumption"""
