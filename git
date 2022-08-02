@@ -6,10 +6,26 @@
 
 
 # submodules:
+	
+	```
+ mathstuf 3 days ago | parent | prev | next [–]
+
+I don't like them either, but things are a lot more manageable if:
+
+- you require that the submodule always move forward (reverts are not allowed; you must fix the submodule and get something there first) - the submodule commit must always be reachable from the configured branch (`submodule.NAME.branch` in `.gitmodules`) - you require that commit be in the first parent history of the branch
+
+This makes conflict resolution trivial (the last prevents MR heads conflicting because the first-parent history linearizes and requires that "A contains B" be true in one pairing).
+
+Without these requirements, it is really a wild west of insanity IME. Much better just to use the dependency mechanisms of whatever tools you use (assuming they exist). ```
+
+## alternatives
 	git subrepo
 		https://news.ycombinator.com/item?id=23377012
 		i gave up with it, too complicated, git submodules are easy compared to it. 
 
+	https://news.ycombinator.com/item?id=31897249
+	
+	
 
 
 # manipulating history:
