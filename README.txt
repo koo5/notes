@@ -25,3 +25,5 @@
 
 i keep notes here
 
+i keep (plaintext) notes here
+
