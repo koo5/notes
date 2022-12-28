@@ -2,3 +2,5 @@ I keep (mostly plaintext) notes here. Some good stuff here, some messy stuff her
 
 various attempts at structuring were made, but largely it's just by filename and indentation
 
+
+...
