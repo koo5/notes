@@ -105,3 +105,24 @@ https://news.ycombinator.com/item?id=27048163
 http://archieml.org/#resources
 
 
+
+
+
+
+snapper
+    amazingly dumb, why is there a list of configurations at all, when the configurations are at the same time defined by files in /etc/snapper/configs/, and why is the list in /etc/default?
+
+
+
+
+btrfs
+    swapfiles
+	bad idea, ...
+
+
+
+
+bash
+	bad idea...
+		[ ! x$DISABLE_APT_SNAPSHOT = 'xyes' ]
+
