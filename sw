@@ -116,8 +116,10 @@ snapper
 
 
 btrfs
-    swapfiles
-	bad idea, ...
+	https://github.com/Zygo/bees/blob/master/docs/btrfs-kernel.md
+	swapfiles
+		bad idea, ...
+
 
 
 
