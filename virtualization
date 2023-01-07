@@ -202,3 +202,5 @@ https://help.ubuntu.com/community/Autofs
 
 
 
+
+tar --create  --sparse /d0/data/ | ssh -p 2222 root@192.168.8.8 "tar xf - --sparse --directory /mx500data/leanpriv/"

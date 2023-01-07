@@ -127,3 +127,8 @@ bash
 	bad idea...
 		[ ! x$DISABLE_APT_SNAPSHOT = 'xyes' ]
 
+
+
+https://www.cipherdyne.org/fwknop/docs/fwknop-tutorial.html#design
+
+
