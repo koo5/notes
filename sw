@@ -1,3 +1,6 @@
+file comparison / diff gui
+	meld
+
 image viewer for huge images: zoom
 
 
