@@ -1,3 +1,6 @@
+file comparison / diff gui
+	meld
+
 image viewer for huge images: zoom
 
 
@@ -131,4 +134,8 @@ bash
 
 https://www.cipherdyne.org/fwknop/docs/fwknop-tutorial.html#design
 
+
+
+firewalld
+	firewall-cmd --permanent --add-port 22/tcp --zone home; firewall-cmd --reload
 
