@@ -139,3 +139,8 @@ https://www.cipherdyne.org/fwknop/docs/fwknop-tutorial.html#design
 firewalld
 	firewall-cmd --permanent --add-port 22/tcp --zone home; firewall-cmd --reload
 
+
+
+broadcast scan
+nmap 192.168.8.0/24
+
