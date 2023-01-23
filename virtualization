@@ -206,3 +206,25 @@ https://help.ubuntu.com/community/Autofs
 tar --create  --sparse /d0/data/ | ssh -p 2222 root@192.168.8.8 "tar xf - --sparse --directory /mx500data/leanpriv/"
 tar: Removing leading `/' from member names
 tar: Removing leading `/' from hard link targets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# bridge networking
+	https://wiki.libvirt.org/page/Net.bridge.bridge-nf-call_and_sysctl.conf
+	http://patchwork.ozlabs.org/project/netdev/patch/1246379267.3749.42.camel@blaa/
+	https://levelup.gitconnected.com/how-to-setup-bridge-networking-with-kvm-on-ubuntu-20-04-9c560b3e3991
+
+
