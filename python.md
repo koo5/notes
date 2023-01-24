@@ -266,7 +266,7 @@ pip install pipreqs
 
 
 
-## https://pypa.github.io/pipx/
+### https://pypa.github.io/pipx/
 
 ```
 
@@ -275,18 +275,31 @@ pipx ensurepath
 register-python-argcomplete --shell fish pipx >~/.config/fish/completions/pipx.fish
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
+
+
+
+# profiling
+
+	time python3 -m cProfile -o ooo <file>; pyprof2calltree -o oooo -i ooo; kcachegrind oooo
+
+	===
+
+	https://github.com/benfred/py-spy
+
+	==
+
+
+	https://functiontrace.com/ https://profiler.firefox.com/
+
+
+	===
+
+	https://github.com/jlfwong/speedscope
+
+
+	===
+
+	stay away from:
+	?
+
